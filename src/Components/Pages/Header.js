@@ -13,14 +13,25 @@ const Header = () => {
                             <Link class="nav-link active" aria-current="page" to="/">Home</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link" to="#">Features</Link>
+                            <Link class="nav-link" to="/donation">Donation</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link" to="#">Pricing</Link>
+                            <Link class="nav-link" to="/events">Events</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link disabled" to="#" tabindex="-1" aria-disabled="true">Disabled</Link>
+                            <Link class="nav-link" to="/blogs">Blog</Link>
                         </li>
+                        <li class="nav-item">
+                            <Link class="nav-link" to="/register">
+                            <button type="button" class="btn btn-primary">Register</button>
+                            </Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link class="nav-link" to="/admin">
+                            <button type="button" class="btn btn-dark">Admin</button>
+                            </Link>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
