@@ -5,7 +5,7 @@ import Home from './Components/Pages/Home';
 import Donation from './Components/Pages/Donation';
 import Events from './Components/Pages/Events';
 import Blogs from './Components/Pages/Blogs';
-import Login from './Login';
+import Login from './Components/Pages/Login';
 import Admin from './Components/Pages/Admin';
 import Header from './Components/Pages/Header';
 import Register from './Components/Pages/Register';

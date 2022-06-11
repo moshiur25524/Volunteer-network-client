@@ -6,7 +6,7 @@ const Header = () => {
         <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <Link class="navbar-brand" to="#">Navbar</Link>
-                <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"/>
+                <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" />
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -23,15 +23,14 @@ const Header = () => {
                         </li>
                         <li class="nav-item">
                             <Link class="nav-link" to="/register">
-                            <button type="button" class="btn btn-primary">Register</button>
+                                <button type="button" class="btn btn-primary">Register</button>
                             </Link>
                         </li>
                         <li class="nav-item">
                             <Link class="nav-link" to="/admin">
-                            <button type="button" class="btn btn-dark">Admin</button>
+                                <button type="button" class="btn btn-dark">Admin</button>
                             </Link>
                         </li>
-                        
                     </ul>
                 </div>
             </div>
